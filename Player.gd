@@ -7,7 +7,6 @@ var velocity = Vector2()
 var screensize
 
 func _ready():
-	hide()
 	screensize = get_viewport_rect().size
 
 func start(pos):
