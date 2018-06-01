@@ -39,3 +39,14 @@ _sections_unfolded = [ "Transform" ]
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 curve = SubResource( 1 )
 
+[node name="PathFollow2D" type="PathFollow2D" parent="MobPath" index="0"]
+position = Vector2( 12, 20 )
+rotation = -0.00229922
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
